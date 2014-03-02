@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{ac075075-9f29-4fcc-9326-15c2506cc119}</ProjectGuid>
     <ProjectHome />
-    <StartupFile />
+    <StartupFile>source\MainApp.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -21,6 +21,8 @@
     <Folder Include="test\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="source\MainApp.py" />
+    <Compile Include="source\MyFirstClass.py" />
     <Compile Include="source\__init__.py" />
     <Compile Include="test\__init__.py" />
   </ItemGroup>
